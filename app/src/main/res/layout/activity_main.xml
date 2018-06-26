@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gef.myrollerdice.MainActivity">
+
+    <TextView
+        android:id="@+id/des_top"
+        style="@style/des"
+        app:layout_constraintBottom_toTopOf="@+id/des_centre"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="4" />
+
+    <TextView
+        android:id="@+id/des_centre"
+        style="@style/des"
+        app:layout_constraintBottom_toTopOf="@+id/des_bottom"
+        app:layout_constraintTop_toBottomOf="@id/des_top"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="2" />
+
+    <TextView
+        android:id="@+id/des_bottom"
+        style="@style/des"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/des_centre"
+        tools:text="1" />
+
+</android.support.constraint.ConstraintLayout>

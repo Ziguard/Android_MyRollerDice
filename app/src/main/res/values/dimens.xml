@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_taille_dice">48sp</dimen>
+    <dimen name="main_marge_dice">8dp</dimen>
+    <dimen name="main_hauteur_dice">80dp</dimen>
+</resources>
